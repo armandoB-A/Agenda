@@ -1,5 +1,6 @@
 package com.example.agenda;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
@@ -14,7 +15,9 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-
+                Intent abrirHome = new Intent(MainActivity.this, HomeAgenda.class);
+                startActivity(abrirHome);
+                finish();
             }
         }, 1000);
     }

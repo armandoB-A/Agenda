@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Agenda</string>
     <string name="bienvenido">Bienvenido</string>
+    <string name="contactos">contactos</string>
+    <string name="busquedaP">busqueda personalizada</string>
+    <string name="salir">salir</string>
 </resources>
